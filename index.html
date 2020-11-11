@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Mulish:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reservación de Hotel </title>
+</head>
+<body class="center">
+    <main class="center container">
+        <h1 class="title">
+            NEW QUICK RESERVATION
+        </h1>
+        <hr></hr>
+        <section class="center subcontainer">
+            <article class="form">
+                <form action="container">
+                    <div class="form-div adult">
+                        <label for="adult">ADULTS</label>
+                        <input type="number" name="adult" id="adult" value="2">
+                    </div>
+                    <div class="form-div children">
+                        <label for="children">CHILDREN</label>
+                        <input type="number" name="children" id="children" placeholder="0">
+                    </div>
+                    <div class="form-div rate">
+                        <label for="rate">RATE TYPE</label>
+                        <input type="text" name="rate" id="rate" value="Rock Rate">
+                    </div>
+                    <div class="form-div rooms">
+                        <label for="room">ROOMS</label>
+                        <input type="number" name="room" id="room" value="1">
+                    </div>
+                    <div class="form-div form-title">
+                        <label for="title">TITLE</label>
+                        <input type="text" name="title" id="title" value="Mr.">
+                    </div>
+                    <div class="form-div name">
+                        <label for="name">FIRST NAME</label>
+                        <input type="text" name="name" id="name" value="Garrett">
+                    </div>
+                    <div class="form-div last-name">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" value="Watson">
+                    </div>
+                    <div class="form-div email">
+                        <label for="email">EMAIL ADRESS</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div class="form-div phone">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="radiobutton">
+                        <input type="radio" name="single" id="single">Single
+                        <input type="radio" name="group" id="group">Group
+                        <input type="radio" name="business" id="business">Business
+                    </div>
+                </form>
+            </article>
+            <article class="details">
+                <div class="room-type">
+                    <h4 class="room-type-title">ROOM TYPE</h4>
+                    <p class="room-type-text">Deluxe</p>
+                </div>
+                <div class="duration">
+                    <h4 class="duration-title">DURATION</h4>
+                    <p class="duration-text">May 28 - Jun 2</p>
+                </div>
+                <div class="price">
+                    <h4 class="price-title">PRICE</h4>
+                    <p class="price-text">$45/night | Total $270</p>
+                </div>
+            </article>
+        </section>
+        <section class="buttons">
+            <button>Temp Reserve</button>
+            <button>Reserve</button>
+            <button>Check-In</button>
+        </section>
+    </main>
+</body>
+</html>
